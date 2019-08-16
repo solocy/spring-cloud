@@ -1,0 +1,14 @@
+server:
+  port: 8044
+spring:
+  application:
+    name: zuul-filter
+zuul:
+  ignored-patterns: '*'
+  routes:
+    blog:
+      path: /blog/**
+      url: blog.lovem.wang
+    git:
+      path: /git/**
+      url: http://www.lovem.wang

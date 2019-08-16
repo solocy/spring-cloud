@@ -1,0 +1,14 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: stream-rabbitmq
+  rabbitmq:
+    username: admin
+    password: admin
+  cloud:
+    stream:
+      bindings:
+        input:
+          group: test     # 在同一个服务 高可用时，定义为同一个组，则可使同一个服务每次消息来临时会自动分配指定一个服务去获取数据
+          destination: test

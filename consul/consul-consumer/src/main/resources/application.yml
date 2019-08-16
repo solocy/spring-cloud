@@ -1,0 +1,11 @@
+server:
+  port: 8012
+spring:
+  application:
+    name: consul-consumer
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        register: false

@@ -1,0 +1,15 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: zuul-geteway-url
+zuul:
+  ignored-patterns: '*'
+  routes:
+    blog:
+      path: /blog/**
+      url: blog.lovem.wang
+    git:
+      path: /git/**
+      url: http://www.lovem.wang
+

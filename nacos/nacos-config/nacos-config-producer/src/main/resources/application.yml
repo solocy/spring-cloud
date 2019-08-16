@@ -1,0 +1,12 @@
+server:
+  port: 8062
+#spring:
+#  application:
+#    name: nacos-config-producer
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: localhost:8848
+#logging:
+##  level:
+##    Root: debug

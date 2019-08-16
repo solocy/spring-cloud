@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: nacos-config-producer
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+#        prefix: test
+#        namespace: 9ceee635-c040-44be-a08c-4b062615b291
+        ext-config:
+          - dataId: test.yaml
+            group: dev_GROUP
+            refresh: true
+          - dataId: test_TEST.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+
+

@@ -1,0 +1,9 @@
+version: '2'
+services:
+   sentiel-dashboard:
+        image: liujc/sentinel-dashboard:1.6.3
+        environment:
+            - TZ=Asia/Shanghai
+        ports:
+            - 8080:8080
+

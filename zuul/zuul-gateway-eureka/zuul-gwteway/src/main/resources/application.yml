@@ -1,0 +1,15 @@
+server:
+  port: 8041
+spring:
+  application:
+    name: zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8042/eureka
+zuul:
+#  ignored-patterns: '*'
+  routes:
+    producer:
+      path: /eureka-producer/**
+      serviceId: eureka-producer

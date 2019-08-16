@@ -1,0 +1,6 @@
+version: '2'
+services:
+  spring-boot-zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - 9411:9411

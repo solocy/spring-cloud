@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: sentinel-simple-server
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true

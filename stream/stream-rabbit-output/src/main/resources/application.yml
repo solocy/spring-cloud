@@ -1,0 +1,14 @@
+server:
+  port: 8052
+spring:
+  application:
+    name: stream-rabbitmq-output
+  rabbitmq:
+    password: admin
+    username: admin
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: test
+#          group: test
