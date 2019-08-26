@@ -5,9 +5,15 @@ spring:
     name: gateway-server
   cloud:
     gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
       routes:
         - id: test
-          uri: http://www.lovem.wang
+          uri: http://www.baidu.com
           predicates:
             - args:
               - pattern: /**

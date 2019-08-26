@@ -5,6 +5,12 @@ spring:
     name: gateway-server-eureka
   cloud:
     gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
       routes:
         - id: producer
           uri: lb://eureka-producer

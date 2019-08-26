@@ -3,3 +3,9 @@ server:
 spring:
   application:
     name: hystrix-client
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: hystrix.stream

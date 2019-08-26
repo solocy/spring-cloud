@@ -6,8 +6,9 @@ spring:
   rabbitmq:
     username: admin
     password: admin
+    host: localhost
   zipkin:
-    base-url: http://localhost:9411
+#    base-url: http://localhost:9411
     sender:
       type: rabbit
   sleuth:
@@ -16,6 +17,6 @@ spring:
         enabled: true
     sampler:
       probability: 1.0
-logging:
-  level:
-    Root: debug
+#logging:
+#  level:
+#    Root: debug

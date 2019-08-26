@@ -8,4 +8,5 @@ spring:
       port: 8500
       host: localhost
       discovery:
-        register: false
+        register: true
+        service-name: consumer1

@@ -1,0 +1,11 @@
+version: '2'
+services:
+  spring-boot-zipkin:
+    image: openzipkin/zipkin
+    environment:
+      - ZIPKIN_COLLECTOR_RABBITMQ_ADDRESSES=192.168.1.106
+      - ZIPKIN_COLLECTOR_RABBITMQ_PORT=5672
+      - ZIPKIN_COLLECTOR_RABBITMQ_USERNAME=admin
+      - ZIPKIN_COLLECTOR_RABBITMQ_PASSWORD=admin
+    ports:
+      - 9411:9411
