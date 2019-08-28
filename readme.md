@@ -8,9 +8,9 @@ Spring cloud 是用来学习Spring cloud 的项目
 -------
 
 _开发环境_
-jdk 1.8
-maven 3.5
-intellij idea 2019+
+* jdk 1.8
+* maven 3.5
+* intellij idea 2019+
 
 
 -------
