@@ -11,4 +11,4 @@ spring:
       bindings:
         output:
           destination: test
-#          group: test
+          group: test

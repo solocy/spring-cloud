@@ -8,8 +8,10 @@ zuul:
   routes:
     blog:
       path: /blog/**
-      url: blog.lovem.wang
+      url: http://www.baidu.com
     git:
       path: /git/**
       url: http://www.lovem.wang
-
+logging:
+  level:
+    root: debug

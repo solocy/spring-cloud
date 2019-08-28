@@ -35,11 +35,6 @@
             <artifactId>spring-cloud-starter-sleuth</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
-
         <!--对Springboot 状态监听-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

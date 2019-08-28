@@ -9,6 +9,8 @@ zuul:
     blog:
       path: /blog/**
       url: blog.lovem.wang
+      stripPrefix: false
     git:
       path: /git/**
       url: http://www.lovem.wang
+      stripPrefix: false

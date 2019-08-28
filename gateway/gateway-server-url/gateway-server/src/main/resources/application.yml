@@ -9,12 +9,19 @@ spring:
         corsConfigurations:
           '[/**]':
             allowedOrigins: "*"
-            allowedMethods:
-            - GET
+#            allowedMethods:
+#            - GET
       routes:
         - id: test
-          uri: http://www.baidu.com
+          uri: http://www.lovem.wang
+          filters:
+            - StripPrefix=1
           predicates:
-            - args:
-              - pattern: /**
-              name: Path
+
+            - Path=/foo/**
+#            - args:
+#              - pattern: /blog/**
+#              name: Path
+logging:
+  level:
+    root: debug

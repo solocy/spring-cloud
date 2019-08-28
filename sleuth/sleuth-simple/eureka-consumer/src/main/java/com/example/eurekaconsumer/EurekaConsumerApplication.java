@@ -32,8 +32,9 @@ public class EurekaConsumerApplication {
 
     @GetMapping("/")
     public String hello() {
-        return restTemplate.getForEntity("http://eureka-producer",String.class).getBody();
+//        return restTemplate.getForEntity("http://eureka-producer",String.class).getBody();
 
+        return "success";
     }
     @GetMapping("/test")
     public String helloTest() {
