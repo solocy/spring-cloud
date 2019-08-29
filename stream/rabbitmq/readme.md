@@ -79,3 +79,22 @@ public class StreamRabbitOutputApplication {
 1.  启动rabbitmq服务端
 2.  启动所有服务
 3.  可以看到控制台的记录
+
+## 扩展
+
+若想使用kafka ,只需将kafka 配置在application.yml 上，更换pom.xml 文件里的kafka
+####application.yml
+
+
+####pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-stream-kafka</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-stream-binder-kafka</artifactId>
+</dependency>
+```

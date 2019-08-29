@@ -1,0 +1,14 @@
+server:
+  port: 8053
+spring:
+  application:
+    name: stream-kafka-output
+  kafka:
+    bootstrap-servers: localhost:9092
+    client-id: output
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: test
+          group: test
