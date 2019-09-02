@@ -27,7 +27,7 @@
 ##application.yml
 ```
 server:
-  port: 8051
+  port: 8091
 spring:
   application:
     name: stream-rabbitmq

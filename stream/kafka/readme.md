@@ -27,7 +27,7 @@
 ##application.yml
 ```
 server:
-  port: 8054
+  port: 8094
 spring:
   application:
     name: stream-kafka-input
