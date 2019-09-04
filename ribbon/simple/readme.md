@@ -71,3 +71,7 @@ public class RibbonSimpleApplication {
 1.  启动所有服务
 2.  在eureka 服务端查看服务注册
 3.  访问http://localhost:8100/dc 可以看到eureka-producer 和 eureka-producer-1 交替出现，这就实现了最简单的负载均衡了
+
+
+##补充
+自定义负载均衡策略可看 ribbon-custom 
