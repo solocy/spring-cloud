@@ -3,7 +3,18 @@
 _项目简介_
 
 Spring cloud 是用来学习Spring cloud 的项目
-该项目现已集成 Spring cloud config （分布式配置中心,集成git），Spring cloud consul (服务发现和注册中心)，Spring cloud eureka (服务发现和注册中心),Spring cloud Gateway（服务网关,集成eureka），Spring cloud netflix hystrix (熔断器)，Spring cloud alibaba nacos (服务发现和注册中心,集成Spring cloud config),Spring cloud alibaba sentinel（接口限流，熔断），Spring cloud sleuth （链路监控，集成 zipkin和rabbitmq）, Spring cloud stream (消息驱动，集成rabbitmq),Spring cloud zuul（服务网关，集成eureka）
+###该项目现已集成 
+* Spring cloud config （分布式配置中心,集成git），
+* Spring cloud consul (服务发现和注册中心)，
+* Spring cloud eureka (服务发现和注册中心),
+* Spring cloud Gateway（服务网关,集成eureka），
+* Spring cloud netflix hystrix (熔断器)，
+* Spring cloud alibaba nacos (服务发现和注册中心,集成Spring cloud config),
+* Spring cloud alibaba sentinel（接口限流，熔断），
+* Spring cloud sleuth （链路监控，集成 zipkin和rabbitmq）, 
+* Spring cloud stream (消息驱动，集成rabbitmq),
+* Spring cloud zuul（服务网关，集成eureka）,
+* Spring cloud ribbon (负载均衡，集成eureka)
 
 -------
 
