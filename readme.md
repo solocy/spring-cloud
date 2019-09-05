@@ -14,7 +14,8 @@ Spring cloud 是用来学习Spring cloud 的项目
 * Spring cloud sleuth （链路监控，集成 zipkin和rabbitmq）, 
 * Spring cloud stream (消息驱动，集成rabbitmq),
 * Spring cloud zuul（服务网关，集成eureka）,
-* Spring cloud ribbon (负载均衡，集成eureka)
+* Spring cloud ribbon (负载均衡，集成eureka,自定义负载均衡)
+* Spring cloud feign (负载均衡，集成eureka，自定义负载均衡)
 
 -------
 
