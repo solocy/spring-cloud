@@ -55,6 +55,3 @@ public class FeignClientApplication {
 1.  启动所有服务
 2.  访问http://localhost:8110/ 可以看到显示测试，访问到了其他服务了
 
-
-##补充
-自定义负载均衡策略可看 ribbon-custom 
